@@ -21,6 +21,7 @@ public class PagamentoService {
         pagamentoTest.setValor(280.00);
         pagamentoTest.setStatus("aprovado");
         pagamentoTest.setDataPagamento(new Date());
+        pagamentos.add(pagamentoTest);
     }
 
     public PagamentoService() {
